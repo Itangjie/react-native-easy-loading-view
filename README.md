@@ -16,7 +16,7 @@
 Check [example](https://github.com/Itangjie/react-native-easy-loading-view/blob/master/example) in the  folder.
 
 ## Usage
-edit myproject/setup.js(root view),like this(detail please expample): 
+edit your project root view,like this(detail please see [example](https://github.com/Itangjie/react-native-easy-loading-view/blob/master/example)): 
 ```jsx
 import Loading from 'react-native-easy-loading-view';
 render() {
