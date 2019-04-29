@@ -5,7 +5,7 @@
 [![npm downloads](https://img.shields.io/npm/dt/react-native-easy-loading-view.svg)](https://npm.im/react-native-easy-loading-view)
 
 ## Preview
-![](http://i.imgur.com/AwJsakU.gif)
+![](http://imgfile.oytour.com/Upload/Common/App/loading_preview.gif)
 
 ## Getting started
 
