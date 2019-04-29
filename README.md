@@ -4,19 +4,19 @@
 [![license](https://img.shields.io/github/license/joinspontaneous/react-native-easy-loading-view.svg)](LICENSE)
 [![npm downloads](https://img.shields.io/npm/dt/react-native-easy-loading-view.svg)](https://npm.im/react-native-easy-loading-view)
 
-## 效果
+## Preview
 ![](http://imgfile.oytour.com/Upload/Common/App/loading_preview.gif)
 ![](http://imgfile.oytour.com/Upload/Common/App/loading_preview2.gif)
 
-## 安装
+## Getting started
 
 `$ npm install react-native-easy-loading-view --save`
 
-## 示例
+## Example
 Check [example](https://github.com/Itangjie/react-native-easy-loading-view/blob/master/example) in the  folder.
 
-## 使用
-引入（App根视图,例如setup.js）,详细请看example
+## Usage
+edit myproject/setup.js(root view),like this(detail please expample): 
 ```jsx
 import Loading from 'react-native-easy-loading-view';
 render() {
@@ -47,7 +47,7 @@ render() {
         );
     }
 ```
-显示
+use loading(show or dismiss)
 ```jsx
 import Loading from 'react-native-easy-loading-view';
 
@@ -64,15 +64,15 @@ Loading.dismiss(); // 消失
 | bottom | 0 | `number` | Distance from bottom of container. |
 | offsetY | 0 | `number` | loading or hud y offset. |
 | loadingDefaultText |  | `string` | loading view default display text. |
-| loadingTextStyle |  | `style` | loading view display text style. |
+| loadingTextStyle | {...} | `style` | loading view display text style. |
 | loadingImage |  | `image` | loading view display gif image. |
-| loadingImageStyle |  | `style` | loading view display image style |
+| loadingImageStyle | {...} | `style` | loading view display image style |
 | hudDefaultText |  | `string` | hud view default display text. |
-| hudTextStyle |  | `style` | hud view display text style. |
-| hudStyle |  | `style` | hud view style. |
+| hudTextStyle | {...} | `style` | hud view display text style. |
+| hudStyle | {...} | `style` | hud view style. |
 | hudBackgroundColor | 'transparent' | `color` | loading view display image style |
 | hudCustomImage |  | `image` | hud view custom image. |
-| hudImageStyle |  | `style` | hud custom image style |
+| hudImageStyle | {...} | `style` | hud custom image style |
 | activityIndicatorSize | 'small' | `string` | hud view default ActivityIndicator size. |
 | activityIndicatorColor |  | `style` | hud view default ActivityIndicator color |
 
