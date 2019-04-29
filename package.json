@@ -1,0 +1,27 @@
+{
+  "name": "react-native-easy-loading-view",
+  "version": "1.0.1",
+  "description": "A react native loading view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Itangjie/react-native-easy-loading-view.git"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-easy-loading-view",
+    "react-native-loading",
+    "loading",
+    "hud",
+    "react-native-easy",
+    "react-native-hud"
+  ],
+  "author": "tangjie",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2"
+  }
+}
