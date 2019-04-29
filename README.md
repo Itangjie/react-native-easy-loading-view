@@ -15,7 +15,7 @@
 Check [example](https://github.com/Itangjie/react-native-easy-loading-view/blob/master/example) in the  folder.
 
 ```bash
-$ cd examples
+$ cd example
 $ npm install
 $ react-native run-ios
 ```
