@@ -79,23 +79,21 @@ Loading.dismiss(); // 消失
 ### Methods
 
 #### showHud(text, extraTop, bkColor)
-show hud 
 
 Parameters:
 
 | Name  | Type     | default | Description | optional |
 | :---- | :------: | :------: | :--- | :--- |
-| text | `string`   | hudDefaultText | hud view display text | optional |
-| extraTop | `number`   | 0 | hud view extra offset y | optional |
-| bkColor | `string`   | '' | hud view backgroundColor | optional |
+| text | `string`   | hudDefaultText | hud view display text | YES |
+| extraTop | `number`   | 0 | hud view extra offset y | YES |
+| bkColor | `string`   | '' | hud view backgroundColor | YES |
 #### showLoading(text, extraTop, bkColor)
-show loading 
 
 Parameters:
 
 | Name  | Type     | default | Description | optional |
 | :---- | :------: | :------: | :--- | :--- |
-| text | `string`   | loadingDefaultText | loading view display text | optional |
-| extraTop | `number`   | 0 | loading view extra offset y | optional |
-| bkColor | `string`   | '' | loading view backgroundColor | optional |
+| text | `string`   | loadingDefaultText | loading view display text | YES |
+| extraTop | `number`   | 0 | loading view extra offset y | YES |
+| bkColor | `string`   | '' | loading view backgroundColor | YES |
 #### dismiss()
