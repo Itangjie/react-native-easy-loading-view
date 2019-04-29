@@ -1,2 +1,34 @@
+
 # react-native-easy-loading-view
-react naview loading view
+
+[![license](https://img.shields.io/github/license/joinspontaneous/react-native-easy-loading-view.svg)](LICENSE)
+[![npm downloads](https://img.shields.io/npm/dt/react-native-easy-loading-view.svg)](https://npm.im/react-native-easy-loading-view)
+
+## Preview
+![](http://i.imgur.com/AwJsakU.gif)
+
+## Getting started
+
+`$ npm install react-native-easy-loading-view --save`
+
+## Example
+Check [example](https://github.com/Itangjie/react-native-easy-loading-view/blob/master/example) in the  folder.
+
+## Usage
+```javascript
+import Loading from 'react-native-easy-loading-view';
+
+// TODO: What to do with the module?
+render() {
+        return (
+            <View style={[{flex:1}]}>
+                <App/>
+                <Loading
+                    ref={(view)=>{Loading.loadingDidCreate(view)}}
+                />
+            </View>
+        );
+    }
+```
+  
+
