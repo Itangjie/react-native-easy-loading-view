@@ -6,6 +6,7 @@
 
 ## Preview
 ![](http://imgfile.oytour.com/Upload/Common/App/loading_preview.gif)
+![](http://imgfile.oytour.com/Upload/Common/App/loading_preview2.gif)
 
 ## Getting started
 
