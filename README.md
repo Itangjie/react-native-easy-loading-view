@@ -61,6 +61,7 @@ Loading.dismiss(); // 消失
 | Prop  | Default  | Type | Description |
 | :------------ |:---------------:| :---------------:| :-----|
 | top | 0 | `number` | Distance from top of container. |
+| bottom | 0 | `number` | Distance from bottom of container. |
 | offsetY | 0 | `number` | loading or hud y offset. |
 | loadingDefaultText |  | `string` | loading view default display text. |
 | loadingTextStyle |  | `style` | loading view display text style. |
@@ -72,4 +73,29 @@ Loading.dismiss(); // 消失
 | hudBackgroundColor | 'transparent' | `color` | loading view display image style |
 | hudCustomImage |  | `image` | hud view custom image. |
 | hudImageStyle |  | `style` | hud custom image style |
+| activityIndicatorSize | 'small' | `string` | hud view default ActivityIndicator size. |
+| activityIndicatorColor |  | `style` | hud view default ActivityIndicator color |
 
+### Methods
+
+#### showHud(text, extraTop, bkColor)
+show hud 
+
+Parameters:
+
+| Name  | Type     | default | Description | optional |
+| :---- | :------: | :------: | :--- | :--- |
+| text | `string`   | hudDefaultText | hud view display text | optional |
+| extraTop | `number`   | 0 | hud view extra offset y | optional |
+| bkColor | `string`   | '' | hud view backgroundColor | optional |
+#### showLoading(text, extraTop, bkColor)
+show loading 
+
+Parameters:
+
+| Name  | Type     | default | Description | optional |
+| :---- | :------: | :------: | :--- | :--- |
+| text | `string`   | loadingDefaultText | loading view display text | optional |
+| extraTop | `number`   | 0 | loading view extra offset y | optional |
+| bkColor | `string`   | '' | loading view backgroundColor | optional |
+#### dismiss()
