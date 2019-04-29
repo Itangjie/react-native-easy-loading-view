@@ -17,7 +17,7 @@ Check [example](https://github.com/Itangjie/react-native-easy-loading-view/blob/
 
 ## 使用
 引入（App根视图,例如setup.js）,详细请看example
-```javascript
+```jsx
 import Loading from 'react-native-easy-loading-view';
 render() {
         return (
@@ -48,7 +48,7 @@ render() {
     }
 ```
 显示
-```javascript
+```jsx
 import Loading from 'react-native-easy-loading-view';
 
 Loading.showHud(); //显示hud
@@ -56,5 +56,20 @@ Loading.showLoading(); //显示loading
 
 Loading.dismiss(); // 消失
 ```
-  
+### Properties
+
+| Prop  | Default  | Type | Description |
+| :------------ |:---------------:| :---------------:| :-----|
+| top | 0 | `number` | Distance from top of container. |
+| offsetY | 0 | `number` | loading or hud y offset. |
+| loadingDefaultText |  | `string` | loading view default display text. |
+| loadingTextStyle |  | `style` | loading view display text style. |
+| loadingImage |  | `image` | loading view display gif image. |
+| loadingImageStyle |  | `style` | loading view display image style |
+| hudDefaultText |  | `string` | hud view default display text. |
+| hudTextStyle |  | `style` | hud view display text style. |
+| hudStyle |  | `style` | hud view style. |
+| hudBackgroundColor | 'transparent' | `color` | loading view display image style |
+| hudCustomImage |  | `image` | hud view custom image. |
+| hudImageStyle |  | `style` | hud custom image style |
 
