@@ -1,7 +1,6 @@
 
 # react-native-easy-loading-view
 
-[![license](https://img.shields.io/github/license/joinspontaneous/react-native-easy-loading-view.svg)](LICENSE)
 [![npm downloads](https://img.shields.io/npm/dt/react-native-easy-loading-view.svg)](https://npm.im/react-native-easy-loading-view)
 
 ## Preview
