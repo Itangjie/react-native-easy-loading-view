@@ -4,9 +4,9 @@
 [![npm downloads](https://img.shields.io/npm/dt/react-native-easy-loading-view.svg)](https://npm.im/react-native-easy-loading-view)
 
 ## Preview
-![](http://imgfile.oytour.com/Upload/Common/App/loading_preview.gif)
+![](http://imgfile.oytour.com/Upload/Common/App/loading_preview22.gif)
 
-![](http://imgfile.oytour.com/Upload/Common/App/loading_preview2.gif)
+![](http://imgfile.oytour.com/Upload/Common/App/loading_preview23.gif)
 
 ## Getting started
 
